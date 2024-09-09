@@ -7,8 +7,8 @@ app.config.from_object(__name__)
 def base():
     return render_template('base.html') 
 
-@app.route('/VC.io/', methods=['GET'])
-@app.route('/VC.io/home', methods=['GET'])
+@app.route('/victoriatechnologies/', methods=['GET'])
+@app.route('/victoriatechnologies/home/, methods=['GET'])
 def home():
     return render_template('home.html')
 
