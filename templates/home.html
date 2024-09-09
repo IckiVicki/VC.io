@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+<!--<script defer src="{{url_for('static', filename='app.js')}}"></script>--> 
+{% block body %}
+<center>
+
+	<section class="hidden">
+		<image src="{{url_for('static', filename='images/hotpink_tie_icon.png')}}" width="300" height="300"> 
+		<p class="intro">
+			As a passionate developer I bring the best to my work. 
+			From mom and pop sites to large ecommerce platforms my work brings stability, efficency, and style to any project.
+		</p>
+	</section>
+	<section class="hidden">
+		<p class="skills">
+			When I work, I bring my all. Thats why Ive spent years growing my skills in Python, HTML, CSS, JavaScript, and Go.
+		</p> 
+		<image src="{{url_for('static', filename='images/white_html_icon.png')}}" width="300" height="300"></image>
+	</section>
+	<section class="hidden">
+				<image  src="{{url_for('static', filename='images/turquoise_github_icon.png')}}" width="300" height="300"></image>
+				<p class="contacts">
+					If you want to see more of my work, 
+					you can find me on Github under the username <a href="https://github.com/IckiVicki">IckiVicki.</a>
+				</p>
+	</section>
+</center>
+{% endblock %}

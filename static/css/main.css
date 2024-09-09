@@ -1,0 +1,89 @@
+body {
+	background-image: radial-gradient(rgb(51, 44, 44), rgb(0, 0, 0));
+	margin: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 10%;
+}
+section {
+	display: flex;
+	animation-iteration-count: infinite;
+	margin-top: 15%;
+	
+	
+}
+.hidden {
+	opacity: 0;
+	transition: all 3s;
+}
+.show{
+	opacity: 1;
+}
+h1 {
+	margin-left: 0%;
+	margin-right: 0%;
+	background: none;
+	border-bottom-style: solid;
+	border-color: lime;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 350%;
+	color: lime;
+}
+.intro {
+	margin: "auto";
+	margin-left: 25%;
+	margin-top: 25%;
+	margin-bottom: 20%;
+	padding-right: 5%;
+	padding-left: 5%;
+	box-shadow: 10px 10px black;
+	border-style: solid;
+	border-color: hotpink;
+	text-align: right;
+	font-size: 175%;
+	font-family: sans-serif;
+	background-color: rgb(41, 34, 34);
+	color: hotpink;
+}
+.skills {
+	margin: "auto";
+	margin-right: 25%;
+	margin-top: 25%;
+	margin-bottom: 20%;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-shadow: 10px 10px black;
+	border-style: solid;
+	border-color: white;
+	text-align: left;
+	font-size: 175%;
+	font-family: sans-serif;
+	background-color: rgb(41, 34, 34);
+	color: white;
+}
+.contacts{
+	display: block;
+	text-align: center;
+	margin: auto;
+	margin-left: 20%;
+	margin-top: 25%;
+	margin-bottom: 20;
+	padding-left: 5%;
+	padding-right: 5%;
+	box-shadow: 10px 10px  black;
+	border-style: solid;
+	border-color: turquoise;
+	font-size: 175%;
+	font-family: sans-serif;
+	background-color: rgb(41, 34, 34);
+	color: turquoise;
+	a {
+		color: turquoise;
+	}
+}
+.tEmph {
+	color: turquoise;
+	text-decoration: none;
+}
+
